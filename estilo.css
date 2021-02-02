@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#contenedor{
+    width: 90%;
+    background: white;
+    margin: 10px auto;
+}
+
+/* estilo cabecera */
+
+#cabecera{
+    background: #1551a1;
+    overflow: hidden;
+}
+
+/* estilo logo */
+
+#logo{
+    float: left;  
+    width: 300px;
+    padding:35px;
+}
+
+/* opciones de menu */
+
+#menu{
+    float: right;
+    padding: 50px 0px;
+     
+}
+
+#opciones li{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+#opciones li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    /* border: 1px solid white; */
+}
+
+#opciones li a:hover {
+    text-decoration: underline;
+}
+
+/* estilos para a el slider */
+
+#slider img{
+    width: 100%;
+}
+
+/* estilo para el contenido principal */
+
+#cuerpo{
+    overflow: hidden;
+}
+
+#caja{
+    float: left;
+    width: 380px;
+    margin: 10px;
+}
+
+#subtitulo{
+    background: #1551a1;
+}
+
+#servicios{
+    color: white;
+    text-align: center;
+    padding: 15 px;
+}
+
+#contenido{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#contenido p{
+    text-align: justify;
+    padding: 10px;
+}
+
+#contenido a{
+    background: darkblue;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#boton{
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#titulo{
+    color: royalblue;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+/* estilo footer */
+
+#pie{
+    background: #062348;
+    overflow: hidden;
+}
+
+#izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+#derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+#izquierda p{
+    margin-top: 20px;
+    text-align: justify;
+    color: white;
+}
+
+#derecha p{
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
