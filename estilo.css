@@ -116,6 +116,11 @@ body{
     padding: 20px;
 }
 
+#titulo:hover{
+    color:black;
+    box-shadow: 1px 1px 4px black;
+}
+
 /* estilo footer */
 
 #pie{
